@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+}
+
+#header {
+  display: flex;
+  justify-content: right;
+  background-color: lightsteelblue;
+}
+
+a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+a:hover {
+  color: whitesmoke;
+}
+
+#footer {
+  padding: 15px 10px;
+  background-color: lightsteelblue;
+}
+
+input[type="submit"] {
+  box-shadow: 2px 5px 10px black;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  opacity: 80%;
+}
+
+input[type="submit"]:active {
+  box-shadow: 2px 5px 0px black;
+}
